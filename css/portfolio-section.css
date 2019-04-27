@@ -1,0 +1,185 @@
+#portfolio-section {
+    padding: 80px 15px;
+  }
+  
+  #portfolio-section .title {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  #portfolio-section .title .square {
+    background: #ffeded;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 23px;
+  }
+  
+  #portfolio-section .title h1 {
+    position: relative;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #16171b;
+    z-index: 1;
+    letter-spacing: 4px;
+  }
+  
+  #portfolio-section .portfolio-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    grid-gap: 10px;
+  }
+  
+  
+  #portfolio-section .portfolio-container .box {
+    background: red;
+    transition: all .4s ease-in-out;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+}
+  
+  #portfolio-section .portfolio-container .box:hover {
+    background: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
+    box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
+  }
+
+  #portfolio-section .portfolio-container .box .img .hover-bg {
+    background: rgba(255, 255, 255, 0);
+    padding: 10px 20px;
+    transition: all .5s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+#portfolio-section .portfolio-container .box:hover .img .hover-bg {
+    background: rgba(255, 53, 53, 0.8);
+    padding: 10px 20px;
+}
+
+#portfolio-section .portfolio-container .box .img .title {
+   width: 100%;
+   height: 100%;
+}
+
+#portfolio-section .portfolio-container .box .img .title .text {
+    background: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transform: translate3d(0, 400px, 0);
+    transition: all .5s ease-in-out;
+    opacity: 0;
+}
+
+#portfolio-section .portfolio-container .box:hover .img .title .text {
+    background: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+/* Box Loactions  */
+  #portfolio-section .portfolio-container .box.img1 {
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+  }
+  #portfolio-section .portfolio-container .box.img1 .img {
+    background: url("https://cdn.dribbble.com/users/823181/screenshots/4511085/scenery_illustration.gif");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+#portfolio-section .portfolio-container .box.img2 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+}
+#portfolio-section .portfolio-container .box.img2 .img {
+  background: url("https://cdn.dribbble.com/users/702789/screenshots/5060996/food.gif");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+#portfolio-section .portfolio-container .box.img3 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+#portfolio-section .portfolio-container .box.img3 .img {
+  background: url("https://cdn.dribbble.com/users/952958/screenshots/5329424/shotime-dribbble_2x.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+#portfolio-section .portfolio-container .box.img4 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+#portfolio-section .portfolio-container .box.img4 .img {
+  background: url("https://cdn.dribbble.com/users/631735/screenshots/6377489/le-matin-office-coffee-ui_4x.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+#portfolio-section .portfolio-container .box.img5 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 6;
+}
+#portfolio-section .portfolio-container .box.img5 .img {
+  background: url("https://cdn.dribbble.com/users/14268/screenshots/5418845/northface-2.gif");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+#portfolio-section .portfolio-container .box.img6 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 6;
+}
+#portfolio-section .portfolio-container .box.img6 .img {
+  background: url("https://cdn.dribbble.com/users/14268/screenshots/5395958/reilanding_4x.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+#portfolio-section .portfolio-container .box.img7 {
+    grid-column: 3 / 4;
+    grid-row: 4 / 6;
+}
+#portfolio-section .portfolio-container .box.img7 .img {
+  background: url("https://cdn.dribbble.com/users/418188/screenshots/6120250/hot_dog_maker_ui_design_tubik_2x.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
