@@ -5,7 +5,19 @@
 @import "portfolio-section.css";
 @import "experience-section.css";
 @import "blog-section.css";
+@import "testimonials-section.css";
+@import "footer-section.css";
+
 .container {
   max-width: 1150px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 960px) {
+  .container{width: 100%}
+}
+
+/* Phones */
+@media only screen and (max-width: 767px) {
+  
 }
