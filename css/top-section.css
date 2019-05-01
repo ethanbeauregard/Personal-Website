@@ -64,3 +64,47 @@
   height: 800px;
   margin: 0 auto;
 }
+
+/* Tablets */
+@media only screen and (max-width: 960px) {
+  #top .container {
+    padding: 0;
+  }
+
+  #top .info {
+    margin-left: 27px;
+  }
+  
+  #top .info h1 {
+    font-size: 1.8rem;
+  }
+
+  #top .info .blue-square {
+    left: -51%;
+  }
+
+  #top .img .background-img {
+    height: 100vh;
+    min-width: 170px;
+  } 
+}
+
+/* Phones */
+@media only screen and (max-width: 767px) {
+  #top .container {
+    padding: 0;
+  }
+
+  #top .info h1 {
+    font-size: 1.5rem;
+  }
+
+  #top .info .blue-square {
+    display: none;
+  }
+
+  #top .img .background-img {
+    height: 100vh;
+    min-width: 170px;
+  }
+}

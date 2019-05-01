@@ -97,3 +97,25 @@
     transform: translate3d(0, 0, 0);
     opacity: 1;
 }
+
+/* Tablets */
+@media only screen and (max-width: 960px) {
+    #blog-section .blog-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 588px 588px 588px;
+    }
+}
+
+/* Phones */
+@media only screen and (max-width: 767px) {
+    #blog-section .blog-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 400px 400px 400px 400px 400px 400px;
+    }
+
+    #blog-section .title {
+        font-size: 3rem;
+    }
+}
+
+
