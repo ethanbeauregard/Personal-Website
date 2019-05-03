@@ -151,6 +151,11 @@
   
   /* Phones */
   @media only screen and (max-width: 767px) {
+
+    #testimonials-section {
+        margin-right: -34px;
+    }
+
     #testimonials-section .testimonials-container {
         grid-template-columns: 50% 50%;
         grid-template-rows: 100px 1fr;

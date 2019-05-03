@@ -236,5 +236,19 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 150px 150px 150px 150px 150px 150px 150px;
     grid-gap: 10px;
+    margin-left: -3px;
   }
+
+  #portfolio-section .title .square {
+    left: 44px;
+  }
+
+  #portfolio-section .title h1 {
+    left: 24px;
+  }
+  
+  #portfolio-section .portfolio-container .box.img7 {
+    max-width: 384px;
+  }
+  
 }

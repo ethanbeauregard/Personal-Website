@@ -108,6 +108,11 @@
 
 /* Phones */
 @media only screen and (max-width: 767px) {
+
+    #blog-section {
+        margin-right: -34px;
+    }
+
     #blog-section .blog-container {
         grid-template-columns: 1fr;
         grid-template-rows: 400px 400px 400px 400px 400px 400px;

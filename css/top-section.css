@@ -106,5 +106,6 @@
   #top .img .background-img {
     height: 100vh;
     min-width: 170px;
+    margin-right: -34px;
   }
 }
