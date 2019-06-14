@@ -16,6 +16,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+}   
+
+#experience-section .experience-container .large-icons {
+    position: relative;
+    top: 134px;
 }
 
 #experience-section .experience-container .large-icons .square {
@@ -109,6 +114,7 @@
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 4px;
+    line-height: 1.5;
 }
 
 #experience-section .experience-container .info .info-box .date {

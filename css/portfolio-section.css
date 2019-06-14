@@ -124,7 +124,7 @@
     grid-row: 2 / 4;
 }
 #portfolio-section .portfolio-container .box.img3 .img {
-  background: url("https://cdn.dribbble.com/users/952958/screenshots/5329424/shotime-dribbble_2x.png");
+  background: url("http://www.ethantbeauregard.xyz/social-media/social-media-cover.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -163,9 +163,9 @@
     grid-row: 3 / 6;
 }
 #portfolio-section .portfolio-container .box.img6 .img {
-  background: url("https://cdn.dribbble.com/users/14268/screenshots/5395958/reilanding_4x.png");
+  background: url("http://www.ethantbeauregard.xyz/email/html-email1.png");
   background-size: cover;
-  background-position: center center;
+  background-position: top;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -176,7 +176,7 @@
     grid-row: 4 / 6;
 }
 #portfolio-section .portfolio-container .box.img7 .img {
-  background: url("https://cdn.dribbble.com/users/418188/screenshots/6120250/hot_dog_maker_ui_design_tubik_2x.png");
+  background: url('../img/vaporizer.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

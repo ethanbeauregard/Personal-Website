@@ -58,9 +58,10 @@
 }
 
 #services-section .services-container .box p {
-  font-size: .8rem;
-  line-height: 1.5;
+  font-size: .9rem;
+  line-height: 1.7;
   color: #b3b3b3;
+  letter-spacing: 1px;
 }
 
 #services-section .services-container .box:hover {
