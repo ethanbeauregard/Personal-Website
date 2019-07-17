@@ -98,7 +98,7 @@
       grid-row: 1 / 2;
   }
   #portfolio-section .portfolio-container .box.img1 .img {
-    background: url("https://cdn.dribbble.com/users/823181/screenshots/4511085/scenery_illustration.gif");
+    background: url("../img/coverCarol.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@
     grid-row: 1 / 4;
 }
 #portfolio-section .portfolio-container .box.img2 .img {
-  background: url("https://cdn.dribbble.com/users/702789/screenshots/5060996/food.gif");
+  background: url("../img/coverAlliance.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
